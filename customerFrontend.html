@@ -1,0 +1,62 @@
+<html>
+    <head>
+		<script type = "text/javascript" src = "checker.js" ></script>
+    </head>
+<body>
+
+    <form action="customerBackend.php" method="post" onsubmit="return validate();">
+      <p>User Information<br>
+        Username: <input type="textfield" name="username" id="username"><br>
+        Password: <input type="textfield" name="password" id="password">
+      <p>Items for Sale<br>
+        <img src="hat.jpg" style="width:250px;height:200px"><br>
+    		Hats($20 each) <select name="hats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select><br>
+        <img src="shoe.JPG" style="width:250px;height:200px"><br>
+        Shoes($45 each) <select name="shoes">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select><br><br>
+        <img src="bugatti.jpg" style="width:250px;height:175px"><br>
+    	  Cars($2.5 million each) <select name="cars">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select><br>
+      <p>Shipping Options<br>
+        <input type="radio" name="shipping" value="0 - 7 days" id="radio_free">Free 7 day<br>
+        <input type="radio" name="shipping" value="5 - 3 days" id="radio_5">$5 three day<br>
+        <input type="radio" name="shipping" value="50 - over night" id="radio_50">$50 over night<br>
+        <input type="submit"><br>
+        <input type="button" value="Clear Values">
+    </form>
+</body>
+</html>
