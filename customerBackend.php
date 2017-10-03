@@ -10,7 +10,8 @@
 	$car_total = $car_count * 2500000;
 	$sale_total = $hat_total + $shoe_total + $car_total + $ship;
 	echo '<link href="style.css" rel="stylesheet" type="text/css"/>';
-	echo '<html><head><h1>Receipt for Sale</h1></head><body><br>';
+	echo '<html><head><h1>Receipt for Sale</h1></head><body>';
+	echo '<h2>Thank you for your purchase!</h2>';
 	echo '<div class="user_back">Username: '.$user.'<br>';
 	echo 'Password: '.$pass.'</div><br>';
 	echo '<div class="receipt">Shipping Fees: $'.$ship.'<br>';
