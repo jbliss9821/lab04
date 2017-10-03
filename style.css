@@ -1,0 +1,34 @@
+h1 {
+  font: bold
+}
+
+body {
+  background: cornflowerblue;
+}
+
+div {
+  width: 250px;
+  height: 290px;
+  vertical-align: top;
+  border: black solid 2px;
+  background: white;
+}
+
+.user {
+  padding-top: 5px;
+  height: 35px;
+  width: 770px;
+  text-align: center;
+}
+
+.shipping {
+  position: absolute;
+  left: 267px;
+  top: 485px;
+  height: auto;
+  text-align: center;
+}
+
+.hats, .shoes, .cars {
+  display: inline-block;
+}

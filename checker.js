@@ -24,3 +24,11 @@ function validate() {
 function validateEmail(email) {
     return /[^\s@]+@[^\s@]+\.[^\s@]+/.test(email);
 }
+
+function clear(){
+	document.getElementById('username').value = "";
+	document.getElementById('password').value = "";
+	document.getElementById('radio_5').unchecked;
+	document.getElementById('radio_50').unchecked;
+	document.getElementById('radio_free').unchecked;
+}
