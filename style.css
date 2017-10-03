@@ -32,3 +32,36 @@ div {
 .hats, .shoes, .cars {
   display: inline-block;
 }
+
+.user_back {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:auto;
+}
+
+.receipt {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 380px;
+  height:auto;
+}
+
+.total {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
